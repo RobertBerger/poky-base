@@ -1,7 +1,8 @@
 IMAGE_NAME=$1
 NETWORK_INTERFACE=$2
 
-TAG="20190420065849-poky-2.7-plus-snapshot"
+#TAG="20190420065849-poky-2.7-plus-snapshot"
+TAG="latest"
 
 if [ $# -lt 2 ];
 then
